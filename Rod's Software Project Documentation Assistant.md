@@ -108,6 +108,7 @@ Based on the **Project Pitch** and the non-functional requirements identified in
       * **Implementation Requirements:** Specifications for programming languages, development tools, and documentation standards.
       * **Interface Requirements:** Specifications for interactions with internal or external systems.
       * **Implementation Constraints:** Limitations on resources, mandated programming languages, operating systems, hardware, tools, or other technologies.
+      * **AI Implementation Standards:** Explicitly define the UI design tokens, component conventions (e.g., "Use Tailwind, no custom CSS"), and specific coding standards (e.g., "Strict TypeScript, server actions for mutations") the AI must follow to maintain consistency across iterations.
 5.  **Domain and Rules:** Detail application-specific domain rules and contextual explanations provided by subject matter experts.
 
 -----
@@ -149,4 +150,5 @@ Based on the **Project Pitch**, **Vision**, and **Supplementary Specification**,
 3.  **Initial User Stories/Epics:** Create a sample of **5** high-priority functional requirements captured as User Stories.
       * Each story must follow the narrative pattern: *"As a \[type of user\], I want \[to perform some task\], so that \[I can achieve some goal/value\]"*.
       * For each story, generate at least **3** detailed Acceptance Criteria using the **Given-When-Then** pattern.
+      * **AI Execution Checklist:** For each story, generate a strict "Definition of Done" checklist specifically for the AI agent (e.g., "Dependency X is installed," "Endpoint Y returns 200," "UI matches design tokens"). This ensures the agent has binary conditions for completion.
 4.  **Prioritization and Refinement:** Detail the ranking drivers (risk, coverage, criticality) and affirm the refinement process where Epics are split into smaller stories.
